@@ -25,17 +25,20 @@ La diferencia entre ambas será la manera de calcular los intereses:
   
   • La segunda tendrá una constante de clase llamada saldoMinimo. Si no se llega a este saldo el interés será la mitad del interés básico.
   
-  Si se supera el saldo mínimo el interés aplicado será el doble del interés anual básico. Implementa, finalmente, una clase principal con función main para probar el funcionamiento de las tres clases: crea varias cuentas bancarias de distintos tipos, realiza ingresos, retiradas y transferencias; calcula los intereses tal y
-
-como ves en la siguiente salida por pantalla:
+  Si se supera el saldo mínimo el interés aplicado será el doble del interés anual básico. Implementa, finalmente, una clase principal con función main para probar el funcionamiento de las tres clases: crea varias cuentas bancarias de distintos tipos, realiza ingresos, retiradas y transferencias; calcula los intereses tal y como ves en la siguiente salida por pantalla:
+  
 --- Mostramos datos de las cuentas ---
+
 Cuenta Corriente IBAN: ES6256465847 Saldo: 1000.0
 Cuenta Ahorro IBAN: ES9956415656 Saldo: 3010.0
+
 --- Ingresamos, retiramos y mostramos ---
 Cuenta Corriente IBAN: ES6256465847 Saldo: 2000.0
 Cuenta Ahorro IBAN: ES9956415656 Saldo: 2510.0
+
 --- Aplicamos intereses ---
 Cuenta Corriente IBAN: ES6256465847 Saldo: 1025.0
 Cuenta Ahorro IBAN: ES9956415656 Saldo: 3685.5
 
 El diagrama UML es este:
+![](https://github.com/zazi479/Examen-Java/blob/6b8c4bab5259121150030632cf86e4c7c179b181/uml.png)
